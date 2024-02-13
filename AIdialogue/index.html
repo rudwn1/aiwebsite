@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹사이트 제작 도우미</title>
+</head>
+<body>
+    <h1>웹사이트 제작 도우미</h1>
+    <!-- 음성 입력 -->
+    <input type="file" id="audioInput" accept="audio/*">
+    <button onclick="sendAudio()">음성 전송</button>
+    <!-- 텍스트 입력 -->
+    <textarea id="textInput"></textarea>
+    <button onclick="sendText()">텍스트 전송</button>
+    <!-- 응답 출력 -->
+    <div id="response"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
